@@ -1,0 +1,63 @@
+body {
+    background: #f2f4f7;
+
+}
+
+
+.parent {
+
+    border: solid white;
+    background-color: white;
+    width: 40vw;
+    height: 25vw; 
+    padding-top: 35px;
+    text-align: center;
+    border-radius: 10px;
+    
+}
+button {
+
+color: white;
+background: #1877f2;
+border: none;
+border-radius: 6px;
+font-size: 20px;
+line-height: 48px;
+padding: 0 16px;
+width: 332px;
+cursor: pointer;
+ }
+input {
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 330px;
+    margin: 10px 10px 10px 10px;
+}
+img {
+
+    width: 15vw;
+}
+
+a {
+    text-decoration: none;
+}
+#butt {
+    color: white;
+    background-color:#42b72a;
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 48px;
+    padding: 0 16px;
+}
+hr {
+    align-items: center;
+    border-bottom: 1px solid #dadde1;
+    display: flex;
+    margin: 20px 16px;
+    text-align: center;
+}
+.mokhlis{
+
+
+}
