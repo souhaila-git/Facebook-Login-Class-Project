@@ -1,63 +1,96 @@
 body {
-    background: #f2f4f7;
-
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center;
+    height: 100vh; */
+}
+#facebook {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    margin: 0;
+    padding: 0;
+    .container {
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+    max-width: 1000px;
+    width: 90%;
+}
+.logo-section {
+    flex: 1;
+}
+.logo-section h1 {
+    font-size: 48px;
+    color: #1877f2;
+    margin: 10px 80px 10px 100px;
+}
+.logo-section p {
+    font-size: 20px;
+    color: #0e1013;
+    margin: 10px 80px 10px 100px;
+}
+.formulaire {
+    flex: 1;
+    background: white;
+padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-right: 250px;
 }
 
-
-.parent {
-
-    border: solid white;
-    background-color: white;
-    width: 40vw;
-    height: 25vw; 
-    padding-top: 35px;
-    text-align: center;
-    border-radius: 10px;
-    
+.formulaire form {
+    display: flex;
+    flex-direction: column;
 }
-button {
-
-color: white;
-background: #1877f2;
-border: none;
-border-radius: 6px;
-font-size: 20px;
-line-height: 48px;
-padding: 0 16px;
-width: 332px;
-cursor: pointer;
- }
-input {
-    font-size: 17px;
-    padding: 14px 16px;
-    width: 330px;
-    margin: 10px 10px 10px 10px;
-}
-img {
-
-    width: 15vw;
-}
-
-a {
-    text-decoration: none;
-}
-#butt {
-    color: white;
-    background-color:#42b72a;
-    border: none;
+.formulaire input {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #dddfe2;
     border-radius: 6px;
-    font-size: 17px;
-    line-height: 48px;
+}
+#log {
+    background-color: #1877f2;
+    color: white;
+    border:none ;
+    height: 30px;
+    width: auto;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.formulaire .create-account {
+    margin-top: 10px;
+    text-align: center;
+}
+
+ .formulaire .new {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: rgb(39, 180, 39);
+    border: none;
+    background-size: 100px;
+    border-radius: 10px;
+    line-height: 30px;
     padding: 0 16px;
 }
-hr {
-    align-items: center;
-    border-bottom: 1px solid #dadde1;
-    display: flex;
-    margin: 20px 16px;
-    text-align: center;
+a {
+    text-decoration: none; 
+    margin: 20px 30px 20px 60px;
+    font-size: 10px;
+    color: #1877f2;
 }
-.mokhlis{
-
-
+footer {
+    display: block  !important;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 12px;
+    color: #8a8d91;
 }
