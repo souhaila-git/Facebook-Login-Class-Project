@@ -1,54 +1,95 @@
 body {
     background: #f2f4f7;
+    font-family: arial,sans-serif;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
 
 }
 
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
 
-.parent {
+.contenu{
+    display: flex;
+    justify-content: space-between;
+    max-width: 980px;
+    width: 100%;
+}
+.text_container{
+    width: 50%;
+}
 
-    border: solid white;
-    background-color: white;
-    width: 40vw;
-    height: 25vw; 
-    padding-top: 35px;
+
+.text_container img{
+    width: 300px;
+    margin-bottom: 10px;
+}
+.text_container p{
+    font-size: 22px;
+    color: #606770;
+
+}
+.table {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
     text-align: center;
-    border-radius: 10px;
-    
+    width: 400px;
 }
-button {
+table{
+    width: 100%;
+    border-collapse: collapse;
 
-color: white;
-background: #1877f2;
-border: none;
-border-radius: 6px;
-font-size: 20px;
-line-height: 48px;
-padding: 0 16px;
-width: 332px;
-cursor: pointer;
+}
+td{
+    padding: 10px;
+}
+
+
+
+
+button {
+      width: 100%;
+            height: 40px;
+            margin-bottom: 10px;
+            background-color: #1877f2;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+ }
+button :hover{
+    background-color: #145dbf;
  }
 input {
-    font-size: 17px;
-    padding: 14px 16px;
-    width: 330px;
-    margin: 10px 10px 10px 10px;
+    width: 100%;
+    padding: 10px;
+    border: 1px,solid,#dddfe2;
+    border-radius: 6px;
+    font-size: 16px;
 }
-img {
 
-    width: 15vw;
-}
+
+
 
 a {
     text-decoration: none;
+    font-size: 14px;
+    color: #1877f2;
+    font-weight: bold;
 }
-#butt {
-    color: white;
-    background-color:#42b72a;
-    border: none;
-    border-radius: 6px;
-    font-size: 17px;
-    line-height: 48px;
-    padding: 0 16px;
+.account button {
+    background-color: #42b72a;
+    margin-top: 20px;
 }
 hr {
     align-items: center;
@@ -57,7 +98,19 @@ hr {
     margin: 20px 16px;
     text-align: center;
 }
-.mokhlis{
-
-
+footer{
+    text-align: center;
+    font-size: 12px;
+    color: #606770;
+    margin-top: 20px;
+}
+.bottom_text {
+    margin-top: 20px; 
+    font-size: 14px;
+    color: #606770;
+    text-align: center;
+}
+.bottom_text span {
+    font-weight: bold;
+    color: black;
 }
