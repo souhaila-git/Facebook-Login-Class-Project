@@ -1,63 +1,188 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
 body {
-    background: #f2f4f7;
-
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    height: 100vh;
+    color: #1c1e21;
 }
 
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 980px;
+    padding: 0 20px;
+}
 
-.parent {
+/* logo-section */
+.logo-section {
+    flex: 1;
+}
 
-    border: solid white;
-    background-color: white;
-    width: 40vw;
-    height: 25vw; 
-    padding-top: 35px;
+.logo-section h1 {
+    color: #1877f2;
+    font-size: 56px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.logo-section p {
+    font-size: 24px;
+    line-height: 28px;
+    color: #606770;
+}
+
+.login-section {
+    flex: 1;
+    max-width: 400px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     text-align: center;
-    border-radius: 10px;
-    
-}
-button {
-
-color: white;
-background: #1877f2;
-border: none;
-border-radius: 6px;
-font-size: 20px;
-line-height: 48px;
-padding: 0 16px;
-width: 332px;
-cursor: pointer;
- }
-input {
-    font-size: 17px;
-    padding: 14px 16px;
-    width: 330px;
-    margin: 10px 10px 10px 10px;
-}
-img {
-
-    width: 15vw;
 }
 
-a {
+.login-section input {
+    width: 100%;
+    padding: 12px 14px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+}
+
+.login-section input:focus {
+    outline: none;
+    border-color: #1877f2;
+    box-shadow: 0 0 4px rgba(24, 119, 242, 0.4);
+}
+
+.login-section input[type="submit"] {
+    background-color: #1877f2;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.login-section input[type="submit"]:hover {
+    background-color: #166fe5;
+}
+
+.login-section a {
+    display: block;
+    margin: 10px 0;
+    color: #1877f2;
     text-decoration: none;
+    font-size: 14px;
 }
-#butt {
-    color: white;
-    background-color:#42b72a;
+
+.login-section a:hover {
+    text-decoration: underline;
+}
+
+.login-section hr {
+    margin: 20px 0;
+    border: none;
+    height: 1px;
+    background-color: #dddfe2;
+}
+
+/* Create Account Button */
+.create-account a {
+    background-color: #42b72a;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
     border: none;
     border-radius: 6px;
-    font-size: 17px;
-    line-height: 48px;
-    padding: 0 16px;
+    padding: 10px 20px;
+    cursor: pointer;
 }
-hr {
-    align-items: center;
-    border-bottom: 1px solid #dadde1;
-    display: flex;
-    margin: 20px 16px;
+
+.create-account a:hover {
+    background-color: #36a420;
+	text-decoration: none;
+}
+
+/* Footer Container */
+footer {
+    background-color: #f9f9f9;
+    padding: 20px 0;
+    font-size: 12px;
+    color: #737373;
+    width: 100%;
+    margin: 0 auto;
     text-align: center;
+	display:fixed;
+	bottom: 0
 }
-.mokhlis{
 
+/* Language Links */
+.footer-languages {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0 0 10px 0;
+}
 
+.footer-languages li {
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.footer-languages button {
+    border: 1px solid #ccc;
+    background-color: white;
+    color: #555;
+    padding: 2px 6px;
+    cursor: pointer;
+    font-size: 12px;
+    border-radius: 2px;
+}
+
+footer hr {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 10px auto;
+    max-width: 1000px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.footer-links li {
+    margin: 5px 10px;
+    cursor: pointer;
+    color: #737373;
+}
+
+.footer-links li:hover {
+    text-decoration: underline;
+}
+
+.footer-meta {
+    margin-top: 10px;
+    color: #737373;
+    font-size: 12px;
 }
