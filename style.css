@@ -1,63 +1,200 @@
-body {
-    background: #f2f4f7;
+/* outhmane noutfia */
 
+body {
+    background-color: #f2f4f6; /* Background color of the page */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; /* Font style */
 }
 
-
 .parent {
-
     border: solid white;
+}
+
+/* Style for centering content */
+section .aw {
+    display: flex; /* Align content in a row */
+    margin-top: 110px;
+    margin-bottom: 110px;
+    padding: 0; /* Remove inner margins */
+    text-align: center; /* Center content */
+    justify-content: center;
+}
+
+/* Style for text and logo */
+.premier {
+    text-align: justify;
+    vertical-align: middle;
+    font-size: 15px;
+    margin: 50px 50px;
+    block-size: 300px;
+}
+
+/* Style for text */
+h3 {
+    border: 30px;
+    inline-size: 350px;
+    margin: 0px;
+}
+
+/* Style for logo */
+.logo img {
+    height: 100px;
+    width: auto;
+    padding: 0px;
+}
+
+/* Style for the form */
+.formul {
     background-color: white;
     width: 40vw;
-    height: 25vw; 
+    height: 25vw;
     padding-top: 35px;
     text-align: center;
     border-radius: 10px;
-    
+    max-width: 600px;
+    padding: 10px 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
 }
-button {
 
-color: white;
-background: #1877f2;
-border: none;
-border-radius: 6px;
-font-size: 20px;
-line-height: 48px;
-padding: 0 16px;
-width: 332px;
-cursor: pointer;
- }
+form {
+    margin: 0 auto;
+    display: block;
+}
+
+input {
+    margin: 10px 0px;
+    padding: 15px 17px;
+}
+
+input[type="text"], input[type="password"] {
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    width: 95%;
+}
+
+button {
+    color: white;
+    background: #1877f2;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 332px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0662da;
+}
+
 input {
     font-size: 17px;
     padding: 14px 16px;
     width: 330px;
     margin: 10px 10px 10px 10px;
 }
-img {
 
+img {
     width: 15vw;
+    background-color: #1877f2;
+    color: white;
+    max-width: 600px;
+    width: 100%;
+    font-size: 15px;
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px 10px;
+    cursor: pointer;
 }
 
-a {
+/* Style for footer and page languages */
+.forget {
+    color: #1877f2;
+    padding: 10px 15px;
+    font-size: 13px;
+}
+
+.forget a {
+    color: #1877f2;
     text-decoration: none;
 }
-#butt {
+
+.Create {
+    padding: 10px 10px;
+    border-radius: 5px;
+    background-color: #50d935;
+    margin: 10px 50px;
+}
+
+.Create a {
     color: white;
-    background-color:#42b72a;
+    background-color: #42b72a;
     border: none;
     border-radius: 6px;
     font-size: 17px;
     line-height: 48px;
     padding: 0 16px;
 }
-hr {
-    align-items: center;
-    border-bottom: 1px solid #dadde1;
+
+.Create:hover {
+    background-color: #187618;
+}
+
+.ana .par2 {
+    font-size: 10px;
     display: flex;
     margin: 20px 16px;
     text-align: center;
+    align-content: end;
+    margin-left: 50px;
 }
-.mokhlis{
 
+hr {
+    border-top: 1px solid #ddd;
+    margin: 0px 1px;
+}
 
+footer {
+    background-color: white;
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+    color: #9c9c9c;
+    text-align: center;
+    text-align: justify;
+    padding-bottom: 0px;
+}
+
+.nesfouter {
+    padding: 0px 25%;
+}
+
+footer hr {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    padding: 10px;
+    margin: 50px 5px;
+    color: #9c9c9c;
+    font-size: 15px;
+}
+
+.copy {
+    margin-bottom: 0px;
+    font-size: 10px;
+}
+
+.plus {
+    padding: 0px 10px;
+    border-radius: 5px;
+    background-color: #e7e7e7;
+    border: 1px solid #ccc;
 }
