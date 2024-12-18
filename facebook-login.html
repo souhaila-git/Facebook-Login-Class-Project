@@ -1,116 +1,119 @@
+<!--Aya Kiliouine-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Facebook Login</title>
+    <title>Facebook – log in or sign up</title>
     <link rel="stylesheet" href="style.css">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f0f2f5;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-        }
-
-        .container {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            max-width: 1000px;
-            width: 90%;
-        }
-
-        .logo-section {
-            flex: 1;
-        }
-
-        .logo-section h1 {
-            font-size: 48px;
-            color: #1877f2;
-            margin: 0;
-        }
-
-        .logo-section p {
-            font-size: 20px;
-            color: #606770;
-        }
-
-        .login-section {
-            flex: 1;
-            background: white;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-        }
-
-        .login-section form {
-            display: flex;
-            flex-direction: column;
-        }
-
-        .login-section input {
-            margin-bottom: 15px;
-            padding: 10px;
-            font-size: 16px;
-            border: 1px solid #dddfe2;
-            border-radius: 6px;
-        }
-
-        .login-section input[type="submit"] {
-            background-color: #1877f2;
-            color: white;
-            border: none;
-            cursor: pointer;
-            font-weight: bold;
-        }
-
-        .login-section input[type="submit"]:hover {
-            background-color: #165ec9;
-        }
-
-        .login-section .create-account {
-            margin-top: 10px;
-            text-align: center;
-        }
-
-        .login-section .create-account a {
-            color: #1877f2;
-            text-decoration: none;
-            font-weight: bold;
-        }
-
-        footer {
-            text-align: center;
-            margin-top: 20px;
-            font-size: 12px;
-            color: #8a8d91;
-        }
-    </style>
 </head>
 <body>
-    <div class="container">
-        <div class="logo-section">
-            <h1>facebook</h1>
-            <p>Connect with friends and the world around you on Facebook.</p>
-        </div>
-        <div class="login-section">
-            <form>
-                <input type="text" placeholder="Email or phone number" required>
-                <input type="password" placeholder="Password" required>
-                <input type="submit" value="Log In">
-            </form>
-            <div class="create-account">
-                <p><a href="#">Create New Account</a></p>
+    <section>
+        <div class="aw">
+
+            <div class="premier">
+                <div class="logo">
+                    <!--<h1>Facebook</h1>-->
+                    <img src="https://logo-marque.com/wp-content/uploads/2020/04/Facebook-Logo.png" alt="facebook">
+                </div>
+                <div class="par1">
+                    <h3>Facebook helps you connect and share with the people in your life.</h3>
+                </div>
+            </div>
+        <div class="ana">
+            <div class="formul">
+                <form action="#" method="post">
+                    <div class="entre">
+                        <input type="text" name="Email ou tel" id="text" placeholder="Email address or phone number" required>
+                    </div>
+                    <div class="entre">
+                        <input type="password" id="passwd" placeholder="Password" required>
+                    </div>
+                    <div class="envoyer" >
+                        <button type="submit" value="Log in">Log in</button>
+                    </div>
+                    <div class="forget">
+                        <a href="#">Forget Your Password?</a>
+                    </div>
+                    <hr>
+                    <div class="Create">
+                        <a href="#">Create new account</a>
+                    </div>
+                </form>
+            </div> 
+            <div class="par2">
+                <h5>Create a Page for a celebrity. brand or business.</h5>
             </div>
         </div>
-    </div>
+        </div>
+    </section>
     <footer>
-        &copy; Your Name(s)
+        <div class="nesfouter">
+
+            <div class="langue">
+                <a href="#">
+                    English (US)
+                </a>
+                <a href="#">
+                    Français (France)
+                </a>
+                <a href="#">                
+                    العربية
+                </a>
+                <a href="#">                
+                    Español (España)
+                </a>
+                <a href="#">
+                    Italiano                
+                </a>
+                <a href="#">
+                    Deutsch
+                </a>
+                <a href="#">
+                    Português (Brasil)
+                </a>
+            <a href="#">
+                中文(简体)
+            </a>            
+            <a href="#">
+                日本語        
+            </a>
+            <a href="#" class="plus"> +</a>
+            <hr>
+            <div class="more">                
+                <a href="#">
+                    Sign up                
+                </a>
+                <a href="#">
+                    Messager
+                </a>
+                <a href="#">
+                    Log in                     
+                </a>
+                <a href="#">
+                    Facebook Lite                    
+                </a>
+                <a href="#">
+                    vedio 
+                </a>
+                <a href="#">
+                    places
+                </a>
+                <a href="#">
+                    games 
+                </a>
+                <a href="#">
+                    Meta pay
+                </a>
+                <a href="#">
+                    meta store             
+                </a>
+            </div>
+        </div>
+        <div class="copy">
+            Ayakiliouine &copy; 2024
+        </div>
+    </div>
     </footer>
 </body>
 </html>
