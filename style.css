@@ -8,12 +8,16 @@ body {
 
     border: solid white;
     background-color: white;
-    width: 40vw;
+    width: 29vw;
     height: 25vw; 
-    padding-top: 35px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    margin-bottom: 30px;
     text-align: center;
     border-radius: 10px;
-    
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 29%;
+    margin-left: 30%;
 }
 button {
 
@@ -24,15 +28,11 @@ border-radius: 6px;
 font-size: 20px;
 line-height: 48px;
 padding: 0 16px;
-width: 332px;
+width: 90%;
+font-weight: bold;
 cursor: pointer;
  }
-input {
-    font-size: 17px;
-    padding: 14px 16px;
-    width: 330px;
-    margin: 10px 10px 10px 10px;
-}
+ 
 img {
 
     width: 15vw;
@@ -45,10 +45,14 @@ a {
     color: white;
     background-color:#42b72a;
     border: none;
+    height: 50px; 
+    font-weight: bold;
     border-radius: 6px;
-    font-size: 17px;
     line-height: 48px;
-    padding: 0 16px;
+    padding: 12px 18px;
+    font-size :19px;
+    font-family: sans-serif;
+    width: 70%;
 }
 hr {
     align-items: center;
@@ -57,7 +61,51 @@ hr {
     margin: 20px 16px;
     text-align: center;
 }
-.mokhlis{
 
-
+.forgotten-password {
+    color: #1877f2; 
+    text-decoration: none; 
+  }
+  input {
+    width: 90%; /* Largeur du champ */
+    padding: 15px; 
+    border: 1px solid gray; /* Bordure grise */
+    border-radius: 7px; 
+    box-sizing: border-box; /* Assure que la largeur inclut la bordure et le padding */
+    margin-bottom: 10px; 
+    line-height: none;
+    font-size:17px ;
+  }
+  .sous-texte {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30%;
+    font-size: 17px;
+  }
+ .sous-texte a {
+    color: black;
+    font-weight: bold;
+ }
+ .sous-texte a:hover {
+    text-decoration: underline;
+ }
+ footer {
+    margin-top: 15%;
+ }
+ 
+ footer a {
+    color: gray;
+    text-decoration: underline;
+ }
+.mokhlis img {
+    width: 250px;
+    margin-left: 20%;
+    margin-bottom: 0%;
+    margin-top:0px;
+}
+.mokhlis p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    margin-left: 20%;
+    margin-top: 0%;
+    font-size: 22px;
 }
