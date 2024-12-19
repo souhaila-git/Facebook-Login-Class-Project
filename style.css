@@ -1,63 +1,144 @@
+/*AMINE MABROUK*/
 body {
-    background: #f2f4f7;
-
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 980px;
+    margin: auto;
+    padding: 40px 20px;
+}
 
-.parent {
+.intro-section {
+    flex: 1;
+    padding-right: 40px;
+}
 
-    border: solid white;
-    background-color: white;
-    width: 40vw;
-    height: 25vw; 
-    padding-top: 35px;
+.intro-section .logo {
+    color: #1877f2;
+    font-size: 56px;
+    margin: 0 0 10px 0;
+    font-weight: bold;
+}
+
+.intro-section .intro-text {
+    font-size: 20px;
+    color: #606770;
+}
+
+.login-container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 360px;
     text-align: center;
-    border-radius: 10px;
-    
-}
-button {
-
-color: white;
-background: #1877f2;
-border: none;
-border-radius: 6px;
-font-size: 20px;
-line-height: 48px;
-padding: 0 16px;
-width: 332px;
-cursor: pointer;
- }
-input {
-    font-size: 17px;
-    padding: 14px 16px;
-    width: 330px;
-    margin: 10px 10px 10px 10px;
-}
-img {
-
-    width: 15vw;
 }
 
-a {
+.input-field {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.login-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #1877f2;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.login-button:hover {
+    background-color: #145dbf;
+}
+
+.forgot-password {
+    display: block;
+    margin: 10px 0;
+    font-size: 14px;
+    color: #1877f2;
     text-decoration: none;
 }
-#butt {
+
+.divider {
+    height: 1px;
+    background: #ddd;
+    margin: 20px 0;
+}
+
+.create-account {
+    padding: 10px;
+    background-color: #42b72a;
     color: white;
-    background-color:#42b72a;
     border: none;
-    border-radius: 6px;
-    font-size: 17px;
-    line-height: 48px;
-    padding: 0 16px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 100%;
 }
-hr {
-    align-items: center;
-    border-bottom: 1px solid #dadde1;
-    display: flex;
-    margin: 20px 16px;
+
+.create-account:hover {
+    background-color: #36a420;
+}
+
+.create-page {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #606770;
+}
+
+.create-page a {
+    color: #1877f2;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer {
+    background-color: #f0f2f5;
     text-align: center;
+    padding: 20px 0;
+    margin-top: auto;
 }
-.mokhlis{
 
+.footer .language-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 10px 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 
+.footer .language-list li {
+    margin: 0 10px;
+    font-size: 12px;
+    color: #606770;
+}
+
+.footer .language-list a {
+    text-decoration: none;
+    color: #606770;
+}
+
+.footer small {
+    font-size: 12px;
+    color: #606770;
 }
